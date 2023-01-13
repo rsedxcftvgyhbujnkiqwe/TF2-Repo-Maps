@@ -1,0 +1,102 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "5101"
+	"mapversion" "3"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "2"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "3"
+	"classname" "worldspawn"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_day01_01"
+}
+entity
+{
+	"id" "2"
+	"classname" "light"
+	"_fifty_percent_distance" "96"
+	"_light" "244 201 121 200"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" ".5"
+	"_quadratic_attn" "1"
+	"_zero_percent_distance" "360"
+	"origin" "14 0 25.149"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -11268]"
+	}
+}
+entity
+{
+	"id" "7"
+	"classname" "info_particle_system"
+	"angles" "0 0 0"
+	"cpoint1_parent" "0"
+	"cpoint2_parent" "0"
+	"cpoint3_parent" "0"
+	"cpoint4_parent" "0"
+	"cpoint5_parent" "0"
+	"cpoint6_parent" "0"
+	"cpoint7_parent" "0"
+	"effect_name" "m_torchflame"
+	"flag_as_weather" "0"
+	"start_active" "1"
+	"origin" "9.36856 0 14.6314"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 6500]"
+	}
+}
+entity
+{
+	"id" "72"
+	"classname" "prop_static"
+	"angles" "0 0 0"
+	"fademaxdist" "1200"
+	"fademindist" "1100"
+	"fadescale" "1"
+	"model" "models/props_medieval/torch.mdl"
+	"skin" "0"
+	"solid" "0"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 14500]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordon
+{
+	"mins" "(-1024 -1024 -1024)"
+	"maxs" "(1024 1024 1024)"
+	"active" "0"
+}

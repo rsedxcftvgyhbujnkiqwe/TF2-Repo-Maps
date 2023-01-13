@@ -1,0 +1,1318 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "5528"
+	"mapversion" "43"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "64"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "43"
+	"classname" "worldspawn"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_day01_01"
+	solid
+	{
+		"id" "2"
+		side
+		{
+			"id" "1"
+			"plane" "(-512 -512 1024) (-512 512 1024) (512 512 1024)"
+			"material" "TOOLS/TOOLSSKIP"
+			"uaxis" "[1 0 0 0] 8"
+			"vaxis" "[0 -1 0 0] 8"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2"
+			"plane" "(-512 512 0) (-512 -512 0) (512 -512 0)"
+			"material" "TOOLS/TOOLSSKIP"
+			"uaxis" "[1 0 0 0] 8"
+			"vaxis" "[0 -1 0 0] 8"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3"
+			"plane" "(-512 -512 0) (-512 512 0) (-512 512 1024)"
+			"material" "TOOLS/TOOLSSKIP"
+			"uaxis" "[0 1 0 0] 8"
+			"vaxis" "[0 0 -1 0] 8"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4"
+			"plane" "(512 512 0) (512 -512 0) (512 -512 1024)"
+			"material" "TOOLS/TOOLSSKIP"
+			"uaxis" "[0 1 0 0] 8"
+			"vaxis" "[0 0 -1 0] 8"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "5"
+			"plane" "(-512 512 0) (512 512 0) (512 512 1024)"
+			"material" "TOOLS/TOOLSSKIP"
+			"uaxis" "[1 0 0 0] 8"
+			"vaxis" "[0 0 -1 0] 8"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "6"
+			"plane" "(512 -512 0) (-512 -512 0) (-512 -512 1024)"
+			"material" "TOOLS/TOOLSSKIP"
+			"uaxis" "[1 0 0 0] 8"
+			"vaxis" "[0 0 -1 0] 8"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 163 200"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+}
+entity
+{
+	"id" "3"
+	"classname" "env_soundscape"
+	"radius" "-1"
+	"soundscape" "harbor.inside_blue_spawn_01"
+	"targetname" "sndsc_harbor.inside_blue_spawn_01"
+	"origin" "-326.172 -6022.72 -264"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "14"
+	"classname" "env_soundscape"
+	"radius" "-1"
+	"soundscape" "harbor.inside_blue_hq"
+	"targetname" "sndsc_harbor.inside_blue_hq"
+	"origin" "-266.868 -4255.47 296"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "25"
+	"classname" "env_soundscape"
+	"radius" "-1"
+	"soundscape" "harbor.inside_blue_ex_01"
+	"targetname" "sndsc_harbor.inside_blue_ex_01"
+	"origin" "-981.103 -4024.5 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "36"
+	"classname" "env_soundscape"
+	"radius" "-1"
+	"soundscape" "harbor.inside_blue_ex_02"
+	"targetname" "sndsc_harbor.inside_blue_ex_02"
+	"origin" "-180.356 -3743.36 72"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "47"
+	"classname" "env_soundscape"
+	"radius" "-1"
+	"soundscape" "harbor.inside_blue_spawn_02"
+	"targetname" "sndsc_harbor.inside_blue_spawn_02"
+	"origin" "-151.338 -3822.13 352"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "58"
+	"classname" "env_soundscape"
+	"radius" "-1"
+	"soundscape" "harbor.inside_blue_ex_03"
+	"targetname" "sndsc_harbor.inside_blue_ex_03"
+	"origin" "262.36 -4329.95 264"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "69"
+	"classname" "env_soundscape"
+	"radius" "-1"
+	"soundscape" "harbor.outdoor_blue"
+	"targetname" "sndsc_harbor.outdoor_blue"
+	"origin" "103.005 -3699.16 57"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "80"
+	"classname" "env_soundscape"
+	"radius" "-1"
+	"soundscape" "harbor.outdoor_blue"
+	"targetname" "sndsc_harbor.outdoor_blue"
+	"origin" "-1191.91 -3531.32 176"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "91"
+	"classname" "env_soundscape"
+	"radius" "-1"
+	"soundscape" "harbor.inside_blue_spawn_02"
+	"targetname" "sndsc_harbor.inside_blue_spawn_02"
+	"origin" "263.22 -4073.12 336"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "102"
+	"classname" "env_soundscape"
+	"radius" "-1"
+	"soundscape" "harbor.outdoor_blue"
+	"targetname" "sndsc_harbor.outdoor_blue"
+	"origin" "114.077 -2043.68 384"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "113"
+	"classname" "env_soundscape"
+	"radius" "-1"
+	"soundscape" "harbor.indoor_blue_fuel"
+	"targetname" "sndsc_harbor.indoor_blue_fuel"
+	"origin" "598.321 -1964.05 152"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "124"
+	"classname" "env_soundscape"
+	"radius" "-1"
+	"soundscape" "harbor.indoor_blue_fuel"
+	"targetname" "sndsc_harbor.indoor_blue_fuel"
+	"origin" "-403.113 -1685.34 120"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "135"
+	"classname" "env_soundscape"
+	"radius" "-1"
+	"soundscape" "harbor.indoor_blue_fuel"
+	"targetname" "sndsc_harbor.indoor_blue_fuel"
+	"origin" "-415.568 -915.216 75.3768"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "146"
+	"classname" "env_soundscape"
+	"radius" "-1"
+	"soundscape" "harbor.outdoor_central"
+	"targetname" "sndsc_harbor.outdoor_central"
+	"origin" "-226.553 -714.39 75.3769"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "157"
+	"classname" "env_soundscape"
+	"radius" "-1"
+	"soundscape" "harbor.outdoor_central"
+	"targetname" "sndsc_harbor.outdoor_central"
+	"origin" "787.923 -702.75 168"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "168"
+	"classname" "env_soundscape"
+	"radius" "-1"
+	"soundscape" "harbor.outdoor_central"
+	"targetname" "sndsc_harbor.outdoor_central"
+	"origin" "205.839 702.96 107.377"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "179"
+	"classname" "env_soundscape"
+	"radius" "-1"
+	"soundscape" "harbor.outdoor_central"
+	"targetname" "sndsc_harbor.outdoor_central"
+	"origin" "-756.864 674.7 176"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "190"
+	"classname" "env_soundscape"
+	"radius" "-1"
+	"soundscape" "harbor.indoor_red_fuel"
+	"targetname" "sndsc_harbor.indoor_red_fuel"
+	"origin" "440.55 956.257 59.3771"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "201"
+	"classname" "env_soundscape"
+	"radius" "-1"
+	"soundscape" "harbor.indoor_red_fuel"
+	"targetname" "sndsc_harbor.indoor_red_fuel"
+	"origin" "-747.812 1142.87 176"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "212"
+	"classname" "env_soundscape"
+	"radius" "-1"
+	"soundscape" "harbor.indoor_red_fuel"
+	"targetname" "sndsc_harbor.indoor_red_fuel"
+	"origin" "143.955 1982.17 360"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "223"
+	"classname" "env_soundscape"
+	"radius" "-1"
+	"soundscape" "harbor.outdoor_red"
+	"targetname" "sndsc_harbor.outdoor_red"
+	"origin" "-608.669 2297.22 104"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "234"
+	"classname" "env_soundscape"
+	"radius" "-1"
+	"soundscape" "harbor.outdoor_red"
+	"targetname" "sndsc_harbor.outdoor_red"
+	"origin" "396.259 1923.23 96"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "245"
+	"classname" "env_soundscape"
+	"radius" "-1"
+	"soundscape" "harbor.inside_blue_spawn_03"
+	"targetname" "sndsc_harbor.inside_blue_spawn_03"
+	"origin" "1093.06 -928.884 136"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "256"
+	"classname" "env_soundscape"
+	"radius" "-1"
+	"soundscape" "harbor.outdoor_red"
+	"targetname" "sndsc_harbor.outdoor_red"
+	"origin" "-498.379 4318.91 280"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "267"
+	"classname" "env_soundscape"
+	"radius" "-1"
+	"soundscape" "harbor.outdoor_red"
+	"targetname" "sndsc_harbor.outdoor_red"
+	"origin" "-121.163 3707.39 41"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "278"
+	"classname" "env_soundscape"
+	"radius" "-1"
+	"soundscape" "harbor.inside_red_ex_01"
+	"targetname" "sndsc_harbor.inside_red_ex_01"
+	"origin" "971.296 4029.83 48"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "289"
+	"classname" "env_soundscape"
+	"radius" "-1"
+	"soundscape" "harbor.inside_red_ex_02"
+	"targetname" "sndsc_harbor.inside_red_ex_02"
+	"origin" "-222.551 4060.83 56"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "300"
+	"classname" "env_soundscape"
+	"radius" "-1"
+	"soundscape" "harbor.inside_red_ex_03"
+	"targetname" "sndsc_harbor.inside_red_ex_03"
+	"origin" "-284.522 4322.91 312"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "311"
+	"classname" "env_soundscape"
+	"radius" "-1"
+	"soundscape" "harbor.inside_red_hq"
+	"targetname" "sndsc_harbor.inside_red_hq"
+	"origin" "500.288 3717.01 48"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "322"
+	"classname" "env_soundscape"
+	"radius" "-1"
+	"soundscape" "harbor.inside_red_hq"
+	"targetname" "sndsc_harbor.inside_red_hq"
+	"origin" "234.005 4263.22 312"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "333"
+	"classname" "env_soundscape"
+	"radius" "-1"
+	"soundscape" "harbor.inside_red_spawn_02"
+	"targetname" "sndsc_harbor.inside_red_spawn_02"
+	"origin" "177.015 3947.42 352"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "344"
+	"classname" "env_soundscape"
+	"radius" "-1"
+	"soundscape" "harbor.inside_red_spawn_01"
+	"targetname" "sndsc_harbor.inside_red_spawn_01"
+	"origin" "319.238 5972.09 -264"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "355"
+	"classname" "env_soundscape"
+	"radius" "-1"
+	"soundscape" "harbor.inside_red_spawn_02"
+	"targetname" "sndsc_harbor.inside_red_spawn_02"
+	"origin" "-256.985 4073.23 320"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "366"
+	"classname" "env_soundscape"
+	"radius" "-1"
+	"soundscape" "harbor.inside_red_hq"
+	"targetname" "sndsc_harbor.inside_red_hq"
+	"origin" "319.131 5339.4 -104"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "377"
+	"classname" "env_soundscape"
+	"radius" "-1"
+	"soundscape" "harbor.inside_red_hq"
+	"targetname" "sndsc_harbor.inside_red_hq"
+	"origin" "-231.633 4250.76 40"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "388"
+	"classname" "env_soundscape"
+	"radius" "-1"
+	"soundscape" "harbor.inside_red_hq"
+	"targetname" "sndsc_harbor.inside_red_hq"
+	"origin" "688.953 4049.42 56"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "399"
+	"classname" "env_soundscape"
+	"radius" "-1"
+	"soundscape" "harbor.inside_red_ex_03"
+	"targetname" "sndsc_harbor.inside_red_ex_03"
+	"origin" "3.50606 4257.39 320"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "410"
+	"classname" "env_soundscape"
+	"radius" "-1"
+	"soundscape" "harbor.inside_red_ex_02"
+	"targetname" "sndsc_harbor.inside_red_ex_02"
+	"origin" "187.744 3727.39 56"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "421"
+	"classname" "env_soundscape"
+	"radius" "-1"
+	"soundscape" "harbor.inside_red_ex_01"
+	"targetname" "sndsc_harbor.inside_red_ex_01"
+	"origin" "1201.34 3789.71 168"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "432"
+	"classname" "env_soundscape"
+	"radius" "-1"
+	"soundscape" "harbor.outdoor_red"
+	"targetname" "sndsc_harbor.outdoor_red"
+	"origin" "-619.583 4079.36 304"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "443"
+	"classname" "env_soundscape"
+	"radius" "-1"
+	"soundscape" "harbor.outdoor_red"
+	"targetname" "sndsc_harbor.outdoor_red"
+	"origin" "130.269 3521.61 309.779"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "454"
+	"classname" "env_soundscape"
+	"radius" "-1"
+	"soundscape" "harbor.outdoor_red"
+	"targetname" "sndsc_harbor.outdoor_red"
+	"origin" "1193.36 3550.37 192"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "465"
+	"classname" "env_soundscape"
+	"radius" "-1"
+	"soundscape" "harbor.outdoor_red"
+	"targetname" "sndsc_harbor.outdoor_red"
+	"origin" "-73.968 2041.84 384"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "476"
+	"classname" "env_soundscape"
+	"radius" "-1"
+	"soundscape" "harbor.inside_red_spawn_03"
+	"targetname" "sndsc_harbor.inside_red_spawn_03"
+	"origin" "-1071.19 922.263 136"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "487"
+	"classname" "env_soundscape"
+	"radius" "-1"
+	"soundscape" "harbor.indoor_red_fuel"
+	"targetname" "sndsc_harbor.indoor_red_fuel"
+	"origin" "-601.72 2038.98 104"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "498"
+	"classname" "env_soundscape"
+	"radius" "-1"
+	"soundscape" "harbor.indoor_red_fuel"
+	"targetname" "sndsc_harbor.indoor_red_fuel"
+	"origin" "397.893 1674.58 88"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "509"
+	"classname" "env_soundscape"
+	"radius" "-1"
+	"soundscape" "harbor.indoor_red_fuel"
+	"targetname" "sndsc_harbor.indoor_red_fuel"
+	"origin" "833.58 642.658 -110.521"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "520"
+	"classname" "env_soundscape"
+	"radius" "-1"
+	"soundscape" "harbor.outdoor_central"
+	"targetname" "sndsc_harbor.outdoor_central"
+	"origin" "-471.842 1121.58 192"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "531"
+	"classname" "env_soundscape"
+	"radius" "-1"
+	"soundscape" "harbor.outdoor_central"
+	"targetname" "sndsc_harbor.outdoor_central"
+	"origin" "850.323 475.581 -54.9484"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "542"
+	"classname" "env_soundscape"
+	"radius" "-1"
+	"soundscape" "harbor.outdoor_central"
+	"targetname" "sndsc_harbor.outdoor_central"
+	"origin" "503.349 -1121.86 184"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "553"
+	"classname" "env_soundscape"
+	"radius" "-1"
+	"soundscape" "harbor.outdoor_central"
+	"targetname" "sndsc_harbor.outdoor_central"
+	"origin" "-843.364 -473.109 -76.591"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "564"
+	"classname" "env_soundscape"
+	"radius" "-1"
+	"soundscape" "harbor.indoor_blue_fuel"
+	"targetname" "sndsc_harbor.indoor_blue_fuel"
+	"origin" "-855.87 -684.759 -106.193"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "575"
+	"classname" "env_soundscape"
+	"radius" "-1"
+	"soundscape" "harbor.indoor_blue_fuel"
+	"targetname" "sndsc_harbor.indoor_blue_fuel"
+	"origin" "-135.241 -1996.21 392"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "586"
+	"classname" "env_soundscape"
+	"radius" "-1"
+	"soundscape" "harbor.outdoor_blue"
+	"targetname" "sndsc_harbor.outdoor_central"
+	"origin" "608.448 -2291.84 120"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "597"
+	"classname" "env_soundscape"
+	"radius" "-1"
+	"soundscape" "harbor.outdoor_blue"
+	"targetname" "sndsc_harbor.outdoor_blue"
+	"origin" "-411.334 -1905.76 104"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "608"
+	"classname" "env_soundscape"
+	"radius" "-1"
+	"soundscape" "harbor.outdoor_blue"
+	"targetname" "sndsc_harbor.outdoor_blue"
+	"origin" "618.85 -4084.05 312"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "619"
+	"classname" "env_soundscape"
+	"radius" "-1"
+	"soundscape" "harbor.outdoor_blue"
+	"targetname" "sndsc_harbor.outdoor_blue"
+	"origin" "-125.822 -3454.41 321.875"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "630"
+	"classname" "env_soundscape"
+	"radius" "-1"
+	"soundscape" "harbor.outdoor_blue"
+	"targetname" "sndsc_harbor.outdoor_blue"
+	"origin" "488.407 -4326.59 264"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "641"
+	"classname" "env_soundscape"
+	"radius" "-1"
+	"soundscape" "harbor.inside_blue_ex_03"
+	"targetname" "sndsc_harbor.inside_blue_ex_03"
+	"origin" "-6.68852 -4250.75 312"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "652"
+	"classname" "env_soundscape"
+	"radius" "-1"
+	"soundscape" "harbor.inside_blue_ex_02"
+	"targetname" "sndsc_harbor.inside_blue_ex_02"
+	"origin" "189.534 -4005.37 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "663"
+	"classname" "env_soundscape"
+	"radius" "-1"
+	"soundscape" "harbor.inside_blue_ex_01"
+	"targetname" "sndsc_harbor.inside_blue_ex_01"
+	"origin" "-1164.71 -3786.7 136"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "674"
+	"classname" "env_soundscape"
+	"radius" "-1"
+	"soundscape" "harbor.inside_blue_hq"
+	"targetname" "sndsc_harbor.inside_blue_hq"
+	"origin" "-547.874 -3728.46 48"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "685"
+	"classname" "env_soundscape"
+	"radius" "-1"
+	"soundscape" "harbor.inside_blue_hq"
+	"targetname" "sndsc_harbor.inside_blue_hq"
+	"origin" "218.349 -4293.49 8.00002"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "696"
+	"classname" "env_soundscape"
+	"radius" "-1"
+	"soundscape" "harbor.inside_blue_hq"
+	"targetname" "sndsc_harbor.inside_blue_hq"
+	"origin" "-332.565 -5373.65 -152"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "707"
+	"classname" "env_soundscape"
+	"radius" "-1"
+	"soundscape" "harbor.inside_blue_hq"
+	"targetname" "sndsc_harbor.inside_blue_hq"
+	"origin" "-704.384 -4025.89 65"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "2099"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "harbor_furnace_1shots"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "32"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "aud_furnace_blue_1_shots"
+	"volstart" "0"
+	"origin" "-386.742 -5408 242.03"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "2105"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "harbor_furnace_lp"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "0"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "aud_furnace_blue_lp"
+	"volstart" "0"
+	"origin" "-413.766 -5404.22 243.704"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "2768"
+	"classname" "logic_timer"
+	"LowerRandomBound" "5"
+	"spawnflags" "0"
+	"targetname" "aud_furnace_1shot_timer_01"
+	"UpperRandomBound" "8"
+	"UseRandomTime" "1"
+	connections
+	{
+		"OnTimer" "aud_furnace_red_1_shots,PlaySound,,0,-1"
+		"OnTimer" "aud_furnace_blue_1_shots,PlaySound,,0,-1"
+	}
+	"origin" "387.101 5407 234.192"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "3432"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "harbor_furnace_lp"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "0"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "aud_furnace_red_lp"
+	"volstart" "0"
+	"origin" "366.575 5408 245.089"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "3435"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "harbor_furnace_1shots"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "32"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "aud_furnace_red_1_shots"
+	"volstart" "0"
+	"origin" "393.599 5404.22 243.415"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "5538"
+	"classname" "env_soundscape"
+	"radius" "-1"
+	"soundscape" "harbor.indoor_blue_fuel"
+	"targetname" "sndsc_harbor.indoor_blue_fuel"
+	"origin" "744.135 -1143.65 136"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordon
+{
+	"mins" "(-1024 -1024 -1024)"
+	"maxs" "(1024 1024 1024)"
+	"active" "0"
+}
